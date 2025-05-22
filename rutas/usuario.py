@@ -1,11 +1,14 @@
-from flask import Blueprint
+from flask import Blueprint, render_template
+from database import get_db
 
-usuarios_dp = Blueprint('usuarios', __name__)
+usuarios_bp = Blueprint('usuarios', __name__, template_folder='templates/usuarios')
 
-@usuarios_dp.route('/')
-def usuarios():
-    return 'Bienvenido a Usuarios'
+@usuarios_bp.route('/')
+def lista_usuarios():
+    db = get_db()
+    usuarios = db.execute("SELECT * FROM usuarios").fetchall()
+    return render_template('lista.html', usuarios=usuarios)
 
-@usuarios_dp.route('/perfil/<username>')
+@usuarios_bp.route('/perfil/<username>')
 def perfil_usuario(username):
-    return f'perfil de {username}'
+    return render_template('perfil.html', username=username)
