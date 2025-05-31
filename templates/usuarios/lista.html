@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <title>Lista de Usuarios</title>
-</head>
-<body>
+{% extends "dashboard.html" %}
+
+{% block title %} Usuarios {% endblock %}
+
+{% block content %}
+
     <h1>Usuarios Registrados</h1>
-    <ul>
-        {% for usuario in usuarios %}
-            <li>{{ usuario.nombre }} - {{ usuario.email }}</li>
-        {% endfor %}
-    </ul>
-</body>
-</html>
+
+
+{% endblock %}
+

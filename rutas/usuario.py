@@ -7,7 +7,7 @@ usuarios_bp = Blueprint('usuarios', __name__, template_folder='templates/usuario
 def lista_usuarios():
     db = get_db()
     usuarios = db.execute("SELECT * FROM usuarios").fetchall()
-    return render_template('usuarios/lista.html', usuarios=usuarios)
+    return render_template('usuarios/lista.html')
 
 @usuarios_bp.route('/perfil/<username>')
 def perfil_usuario(username):
