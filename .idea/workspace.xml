@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff6b52f6-92d0-4452-ad60-7d2a0567d705" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rutas/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login/loguout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rutas/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/rutas/home.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rutas/usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/rutas/usuario.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/template/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/usuarios/lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usuarios/lista.html" afterDir="false" />
