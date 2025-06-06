@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff6b52f6-92d0-4452-ad60-7d2a0567d705" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/personalized.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/personalized.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/farmacia.db" beforeDir="false" afterPath="$PROJECT_DIR$/farmacia.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/usuarios/lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usuarios/lista.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,19 +29,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.app.executor": "Run",
-    "Python.database.executor": "Run",
-    "Python.home.executor": "Run",
-    "Python.routes.executor": "Run",
-    "Python.usuario.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/rube/proyecto/python/sistemaVentas/pythonProject1/static/css",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.database.executor&quot;: &quot;Run&quot;,
+    &quot;Python.home.executor&quot;: &quot;Run&quot;,
+    &quot;Python.routes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.usuario.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rube/proyecto/python/sistemaVentas/pythonProject1/static/css&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/css" />

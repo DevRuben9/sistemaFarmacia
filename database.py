@@ -103,12 +103,15 @@ def create_tables():
         )"""
     ]
 
-    db = get_db()
-    cursor = db.cursor()
-    for table in tables:
-        cursor.execute(table)  # Ejecuta cada sentencia individualmente
-    db.commit()
-    db.close()
+    try:
+        db = get_db()
+        cursor = db.cursor()
+        for table in tables:
+            cursor.execute(table)
+        db.commit()
+    except sqlite3.Error as e:
+        print(f"Error en la creación de tablas: {e}")
+    finally:
+        db.close()
 
-
-#create_tables()
+create_tables()
